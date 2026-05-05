@@ -18,7 +18,7 @@ export default async function Home() {
           <div className="w-10 h-10 bg-olive rounded-full flex items-center justify-center text-white shadow-sm">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 10 12 2l9 8"/><path d="M5 10v12h14V10"/><path d="M9 22v-8h6v8"/><path d="m9 14 6 8"/><path d="m15 14-6 8"/><circle cx="12" cy="6.5" r="1.5"/></svg>
           </div>
-          <h1 className="text-xl sm:text-2xl font-serif font-bold tracking-tight text-olive-dark">Silfer Farm Stand</h1>
+          <h1 className="text-xl sm:text-2xl font-serif font-bold tracking-tight text-olive-dark">Slifer Farm Stand</h1>
         </div>
         <div className="flex gap-4 sm:gap-8 text-xs sm:text-sm font-medium uppercase tracking-widest text-stone-500">
           <a href="/admin" className="text-rust opacity-60 hover:opacity-100 transition-opacity">Admin Login</a>
@@ -33,8 +33,8 @@ export default async function Home() {
           {/* Hero Image Card */}
           <div className="relative h-64 w-full bg-stone-200 rounded-3xl overflow-hidden border-4 border-white shadow-xl flex-shrink-0">
             <Image 
-              src="/silferfarm.jpeg"
-              alt="Silfer Farm Stand"
+              src="/sliferfarm.jpeg"
+              alt="Slifer Farm Stand"
               fill
               className="object-cover"
               priority
@@ -86,9 +86,9 @@ export default async function Home() {
           </div>
 
           <div className="bg-olive-dark text-white p-8 rounded-3xl shadow-sm">
-            <h3 className="text-xl font-serif font-medium mb-3 text-stone-200">About Silfer Farm</h3>
+            <h3 className="text-xl font-serif font-medium mb-3 text-stone-200">About Slifer Farm</h3>
             <p className="text-sm leading-relaxed text-stone-300 opacity-90">
-               Nestled in the heart of Champaign, Silfer Farm has been a family passion project since 2019. We believe in sustainable practices, community connection, and the simple joy of fresh, high-quality food.
+               Nestled in the heart of Champaign, Slifer Farm has been a family passion project for over a decade. We believe in sustainable practices, community connection, and the simple joy of fresh, high-quality food.
             </p>
           </div>
         </div>
@@ -152,9 +152,9 @@ export default async function Home() {
 
           {/* Footer Branding Strip */}
           <div className="px-6 md:px-8 py-5 bg-stone-50 border-t border-stone-200 flex justify-between items-center mt-auto">
-            <p className="text-xs text-stone-500">Owned and operated by the Silfer Family since 2019.</p>
+            <p className="text-xs text-stone-500">Owned and operated by the Slifer Family since 2012.</p>
             <div className="flex gap-3">
-              <a href="mailto:info@silferfarm.com" className="w-8 h-8 rounded-full border border-rust flex items-center justify-center text-rust hover:bg-rust hover:text-white transition-colors">
+              <a href="mailto:info@sliferfarm.com" className="w-8 h-8 rounded-full border border-rust flex items-center justify-center text-rust hover:bg-rust hover:text-white transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
               </a>
             </div>
@@ -170,7 +170,7 @@ export default async function Home() {
             <div className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse"></div>
             Online
           </span>
-          <span className="hidden sm:inline">&copy; {new Date().getFullYear()} Silfer Farm</span>
+          <span className="hidden sm:inline">&copy; {new Date().getFullYear()} Slifer Farm</span>
         </div>
       </footer>
     </div>

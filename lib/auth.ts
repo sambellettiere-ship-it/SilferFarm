@@ -1,7 +1,7 @@
 import { SignJWT, jwtVerify } from 'jose';
 import { cookies } from 'next/headers';
 
-const secretKey = 'silfer-farm-secret-key-replace-in-prod';
+const secretKey = 'slifer-farm-secret-key-replace-in-prod';
 const key = new TextEncoder().encode(secretKey);
 
 export async function encrypt(payload: any) {

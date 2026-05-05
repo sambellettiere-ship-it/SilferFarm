@@ -14,8 +14,8 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: 'Silfer Farm Stand',
-  description: 'Live inventory and information for the local Silfer Farm stand.',
+  title: 'Slifer Farm Stand',
+  description: 'Live inventory and information for the local Slifer Farm stand.',
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
