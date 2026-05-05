@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-serif), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+  --color-olive: #5A6E5A;
+  --color-olive-dark: #3E4A3E;
+  --color-olive-light: #4A5B4A;
+  --color-rust: #B45C3D;
+  --color-warm-white: #F9F6F0;
+  --color-warm-gray: #E8E2D6;
+  --color-stone-900: #2D2D2D;
+  --color-stone-800: #3E4A3E;
+  --color-stone-600: #5A5A5A;
+  --color-stone-500: #6B6658;
+  --color-stone-200: #E8E2D6;
+  --color-stone-100: #F2EDE4;
+  --color-stone-50: #F9F6F0;
+}
+
+body {
+  background-color: var(--color-warm-white);
+  color: var(--color-stone-900);
+}
