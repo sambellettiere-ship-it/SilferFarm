@@ -88,7 +88,7 @@ export default async function Home() {
           <div className="bg-olive-dark text-white p-8 rounded-3xl shadow-sm">
             <h3 className="text-xl font-serif font-medium mb-3 text-stone-200">About Silfer Farm</h3>
             <p className="text-sm leading-relaxed text-stone-300 opacity-90">
-               Nestled in the heart of Champaign, Silfer Farm has been a family passion project for over a decade. We believe in sustainable practices, community connection, and the simple joy of fresh, high-quality food.
+               Nestled in the heart of Champaign, Silfer Farm has been a family passion project since 2019. We believe in sustainable practices, community connection, and the simple joy of fresh, high-quality food.
             </p>
           </div>
         </div>
