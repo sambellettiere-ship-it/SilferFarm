@@ -16,7 +16,7 @@ export default async function Home() {
       <nav className="h-20 px-6 sm:px-10 border-b border-stone-200 flex items-center justify-between bg-white/50 backdrop-blur-sm sticky top-0 z-10">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 bg-olive rounded-full flex items-center justify-center text-white shadow-sm">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m11 17 2 2 4-4"/><path d="m3 10 2.5-2.5L3 5"/><path d="m3 19 2.5-2.5L3 14"/><path d="M10 6h11"/><path d="M10 12h11"/><path d="M10 18h11"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 10 12 2l9 8"/><path d="M5 10v12h14V10"/><path d="M9 22v-8h6v8"/><path d="m9 14 6 8"/><path d="m15 14-6 8"/><circle cx="12" cy="6.5" r="1.5"/></svg>
           </div>
           <h1 className="text-xl sm:text-2xl font-serif font-bold tracking-tight text-olive-dark">Silfer Farm Stand</h1>
         </div>
@@ -33,7 +33,7 @@ export default async function Home() {
           {/* Hero Image Card */}
           <div className="relative h-64 w-full bg-stone-200 rounded-3xl overflow-hidden border-4 border-white shadow-xl flex-shrink-0">
             <Image 
-              src="https://picsum.photos/seed/farmstand/1920/1080"
+              src="/silferfarm.jpeg"
               alt="Silfer Farm Stand"
               fill
               className="object-cover"
@@ -52,11 +52,11 @@ export default async function Home() {
             <div>
               <h3 className="text-xs uppercase tracking-widest text-rust font-bold mb-2">Open Daily</h3>
               <p className="text-xl font-medium">9:00 AM – 7:00 PM</p>
-              <p className="text-sm text-stone-500 mt-1">1085 County Road 2200 North, IL</p>
+              <p className="text-sm text-stone-500 mt-1">1085 County Rd 2200 N, Champaign, IL 61822</p>
             </div>
 
             <a 
-              href="https://maps.google.com/?q=1085+County+Road+2200+North,+Champaign,+IL" 
+              href="https://maps.google.com/?q=1085+County+Rd+2200+N,+Champaign,+IL+61822" 
               target="_blank" rel="noopener noreferrer"
               className="w-full py-4 bg-olive text-white rounded-2xl font-bold flex items-center justify-center gap-2 hover:bg-olive-light transition-colors"
             >
